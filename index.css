@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fff;
+}
+
+.todo-list {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+.counter {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.todo-list{
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+}
+
+input{
+  border:2px solid rgb(79, 234, 189);
+  height: 3rem;
+  margin: 1rem;
+  background: rgb();
+}
+
+.todo, .create-todo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.todo{
+  border:2px solid rgb(79, 234, 189);
+  width: 30%;
+  height: 30%;
+  border-radius: 1rem;
+  padding:0;
+}
+
+.crossed-line{
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.322);
+}
+
+.counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 4rem;
+}
+.done, .left{
+  padding: 1rem;
+  border: 2px solid rgb(101, 209, 178);
+  margin: 2rem;
+}
