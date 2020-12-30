@@ -1,7 +1,7 @@
-React todo app 
-Users can create new todo items and mark them as completed
-There is a calculator: DONE LEFT
-My first react applicaton
+## React todo app 
+## Users can create new todo items and mark them as completed
+## There is a calculator: DONE LEFT
+## My first react applicaton
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
